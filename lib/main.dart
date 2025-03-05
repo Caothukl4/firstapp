@@ -9,7 +9,11 @@ void main() {
       ),
       body: Center(
         child: Text("Hello TuanAnh"),
-      )
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        child: Text("Click"),
+      ),
     )
   ));
 }
