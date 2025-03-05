@@ -7,7 +7,9 @@ void main() {
         title: Text("My first app"),
         centerTitle: true,
       ),
-      body: Text("Hello"),
+      body: Center(
+        child: Text("Hello TuanAnh"),
+      )
     )
   ));
 }
